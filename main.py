@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Entrypoint copier, standard library only: this file draws nothing itself.
+# It copies the committed entry.png into the directory named by
+# MAKEFUN_OUTPUT_DIR (default /output), so grading gets the exact bytes.
 """Entry program for the make.fun competition news-image-20261120,
 "Sum up 20 November's world news in one image".
 
